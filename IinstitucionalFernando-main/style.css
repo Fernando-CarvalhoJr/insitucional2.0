@@ -234,12 +234,13 @@ html, body {
 /* AQUI INICIAMOS O DESENVOLVIMENTO DA ESTILIZAÇÃO DA NOSSA SEGUNDA SEÇÃO */
 .mission--content{
   /* border: 5px solid purple; */
-  background-image: url(assets/mission--content.png);
+  /* background-image: url(assets/mission--content.png); */
   width: 100%;
   height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .mission--content-center {
@@ -259,12 +260,13 @@ html, body {
 .mission--title-edit {
   /* border: 5px solid blue; */
   /* margin-top: -100px; */
-    font-size:xx-large;
+    font-size: 40px;
+    font-weight: bold;
     display: flex;
     justify-content: space-around;
-    align-content: space-between;
-    margin-bottom: 30px;
-    margin-top: -20px;
+    margin-bottom: 120px;
+    margin-top: -8px;
+    width: 765px;
 }
 
 .mission-content-image {
@@ -275,12 +277,12 @@ html, body {
 }
 
 .gif{
-  width: 270px;
+  width: 290px;
   height: 260px;
 
 }
 .gifs{
-  width: 286px;
+  width: 309px;
   height: 360px;
 
 }
@@ -305,22 +307,22 @@ html, body {
 }
 
 .mission-space-content-one {
-  width: 270px;
+  width: 290px;
   height: 260px;
 }
 
 .mission-space-content-two {
-width: 270px;
+width: 290px;
   height: 260px;
 }
 
 .mission-space-content-three {
-  width: 270px;
+  width: 290px;
   height: 260px;
 }
 
 .mission-space-content-four {
-  width: 270px;
+  width: 290px;
   height: 260px;
 }
 
@@ -336,6 +338,7 @@ width: 270px;
   width: 100%;
   height: 850px;
   position: relative;
+  bottom: -10px
    ;
   display: flex;
   justify-content: center;
@@ -359,10 +362,12 @@ width: 270px;
 .new--content-title {
   /* border: 2px solid red; */
   width: 100%;
+  margin-top: -110px;
 }
+
 .new--content-title-edit {
   /* color: red; */
-  font-size: xx-large;
+  font-size: 50px;
   text-align: center;
   color: #FFF;
 }
@@ -371,10 +376,11 @@ width: 270px;
   display: flex;
   /* flex-flow: row nowrap; */
   /* border: 2px solid blue; */
-  font-size: large;
+  font-size: 19px;
   width: 500px;
   margin-left: 120px;
-  margin-bottom: 40px;
+  margin-bottom: 15px;
+  margin-top: -40px;
 }
 
 /* .new--content-subtitle-edit {
@@ -408,9 +414,8 @@ width: 270px;
 }
 
 .new--request-one {
-  height: 170px;
-  width: 150px;
-  margin-right: 15px;
+
+  margin-right: 25px;
   margin-bottom: 15px;
   -webkit-filter: blur(3px);
 	filter: blur(3px);
@@ -426,9 +431,7 @@ width: 270px;
 }
 
 .new--request-two {
-  height: 170px;
-  width: 150px;
-  margin-right: 15px;
+  margin-right: 25px;
   margin-bottom: 15px;
   -webkit-filter: blur(3px);
 	filter: blur(3px);
@@ -445,9 +448,7 @@ width: 270px;
 }
 
 .new--request-three {
-  height: 170px;
-  width: 150px;
-  margin-right: 15px;
+  margin-right: 25px;
   margin-bottom: 15px;
   -webkit-filter: blur(3px);
 	filter: blur(3px);
@@ -463,9 +464,7 @@ width: 270px;
 }
 
 .new--request-four {
-  height: 170px;
-  width: 150px;
-  margin-right: 15px;
+  margin-right: 25px;
   margin-bottom: 15px;
   -webkit-filter: blur(3px);
 	filter: blur(3px);
@@ -481,9 +480,7 @@ width: 270px;
 }
 
 .new--request-five {
-  height: 170px;
-  width: 150px;
-  margin-right: 15px;
+  margin-right: 25px;
   margin-bottom: 15px;
   -webkit-filter: blur(3px);
 	filter: blur(3px);
@@ -500,9 +497,7 @@ width: 270px;
 }
 
 .new--request-six {
-  height: 170px;
-  width: 150px;
-  margin-right: 15px;
+  margin-right: 25px;
   margin-bottom: 15px;
   -webkit-filter: blur(3px);
 	filter: blur(3px);
@@ -524,6 +519,7 @@ width: 270px;
   background-image: url(assets/choose--content.png);
   width: 100%;
   height: 700px;
+  margin-top: -36px;
   display: flex;
   justify-content: center;
   align-items: center;
